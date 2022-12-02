@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: inherit;
+}
+
+
 body {
-    color: red;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.head {
+    background-color: #ccc;
+    width: 1000px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+.nav {
+    background-color: #ddd;
+
+}
+.nav ul {
+    /* background-color: red; */
+    width: 1000px;
+    margin: 0 auto;    
+}
+.bottom {
+    background-color: #ccc;
+    padding: 40px;
+    text-align: center;
 }
